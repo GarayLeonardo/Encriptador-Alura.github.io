@@ -198,17 +198,6 @@ border-radius: 32px;
     flex-grow: 0;
 }
 
-.box-constante img{
-    position: absolute;
-    height: 304px;
-    width: 336px;
-    left: 32px;
-    top: 243px;
-   
-    
-    background: #FFFFFF;
-}
-
 .box-muñeco img{
     position: absolute;
     height: 304px;
@@ -307,16 +296,16 @@ p.copy-advertencia{
     width: 50px;
     left: 1225px;
     top: 785px;
-    background: #FFFFFF;
+    background: #E9ECF8;
 }
 
 .a, img#github{
     position: absolute;
-    height: 53px;
+    height: 50px;
     width: 50px;
     left: 1325px;
     top:784px;
-    background: #FFFFFF;
+    background: #E9ECF8;
 }
 
 footer{
@@ -333,4 +322,169 @@ footer{
     color: #FFFFFF;
     font-size: 16px;
     margin: 20px;
+}
+
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 480px){
+    
+    main{
+        height: 100%;
+    }
+
+    .logo{
+        height: 100%;
+        top: 1rem;
+        left: -1.5rem;
+        width:25%;
+    }
+
+    .input-texto{
+        width:20rem;
+        top:8rem;
+        left:5rem;
+        font-size: 22px;
+        word-wrap: break-word;
+    }
+
+    textarea#input-texto.input-texto{
+        height: 624px;
+        width: 343px;
+    }
+
+    .grupo-adv{
+        left:2.3rem;
+        top:24rem;
+    }
+
+    .vector{
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        top: 452px;
+        left: 65px;
+    }
+    
+    .informacion{
+        top: 451px;
+        left: 85px;
+        width: 208px;
+        height: 18px;
+
+    }
+
+    .botones{
+        flex-direction: column;
+        top:25.5rem;
+        left:1.5rem;
+    }
+    
+    .encriptar{
+        top: 485px;
+        left: 45px;
+
+        width: 320px;
+        font-size:20px;
+        height:65px;
+        margin: 0.5rem;    
+    }
+
+    .desencriptar{
+        width: 320px;
+        font-size:20px;
+        height:65px;
+        margin: 0.5rem;
+        top: 576px;
+        left: 45px;
+
+    }
+
+    .mensaje-box{
+        width: 327px;
+        height: 186px;
+        left: 50px;
+        top: 707px;
+        
+    }
+
+    .mensaje-box h2{ 
+        width: 263px;
+        height: 58px;
+        top: 32px;
+        left: 32px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        color: #343A40;
+        background: #FFFFFF;
+    }
+            
+    .mensaje-box h3{
+        width: 263px;
+        height: 48px;
+        top: 106px;
+        left: 32px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+    
+    }
+
+    .box-muñeco img{
+        visibility: hidden;
+    }
+
+    .input-mensaje{
+      width: 17rem;
+      top: 1.5rem;
+      height:8rem;
+      left:1.5rem;
+      font-size: 20px;
+      word-wrap: break-word;
+      text-align: center;
+    }
+
+    .input-mensaje:focus{
+        border: none;
+        background: transparent;
+    }
+
+    .copiar{
+        top: 7rem;
+        left: 1.5rem;
+        width: 279px;
+        height: 62px;
+        font-size: 20px;
+    }
+
+    img.copyAdvertencia{
+        left: 12px;
+        top: -40px;
+    }
+
+    p.copy-advertencia{
+        left: 17px;
+        top: -40px;
+    }
+
+    .a, img#linkedin{
+        top: 900px;
+        left: 75px;
+    }
+
+    .a, img#github{
+        top: 900px;
+        left: 300px;
+    }
+
+    footer{
+        text-align: center;
+        width: 400px;
+        left: 0px;
+        top: 950px;
+    }
 }
