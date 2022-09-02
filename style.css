@@ -326,6 +326,11 @@ footer{
 
 
 @media only screen and (min-device-width : 300px) and (max-device-width : 480px){
+    
+    body{
+        width: 300px;
+    }
+
     main{
         height: 100%;
     }
@@ -333,19 +338,20 @@ footer{
     .logo{
         height: 100%;
         top: 1rem;
-        left: 50%;
+        left: 125px;
         width:25%;
     }
 
     .input-texto{
         width:20rem;
         top:8rem;
-        left:5rem;
+        left:7px;
         font-size: 22px;
         word-wrap: break-word;
     }
-
+    
     textarea#input-texto.input-texto{
+        text-align: center;
         height: 624px;
         width: 343px;
     }
@@ -367,18 +373,11 @@ footer{
         left: 85px;
         width: 208px;
         height: 18px;
-
-    }
-
-    .botones{
-        flex-direction: column;
-        top:25.5rem;
-        left:1.5rem;
     }
     
     .encriptar{
         top: 485px;
-        left: 45px;
+        left: 12.5px;
 
         width: 320px;
         font-size:20px;
@@ -392,16 +391,15 @@ footer{
         height:65px;
         margin: 0.5rem;
         top: 576px;
-        left: 45px;
+        left: 12.5px;
 
     }
 
     .mensaje-box{
         width: 327px;
         height: 186px;
-        left: 50px;
+        left: 12.5px;
         top: 707px;
-        
     }
 
     .mensaje-box h2{ 
@@ -457,20 +455,15 @@ footer{
 
     .a, img#linkedin{
         top: 900px;
-        left: 75px;
+        left: 50px;
     }
 
     .a, img#github{
         top: 900px;
-        left: 300px;
+        left: 250px;
     }
 
     footer{
-        text-align: center;
-        width: 385px;
-        margin-left: 5px;
-        margin-right: 5px;
-        left: 0px;
-        top: 950px;
+        display: none;
     }
 }
