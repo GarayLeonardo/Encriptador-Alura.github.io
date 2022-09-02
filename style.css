@@ -326,7 +326,6 @@ footer{
 
 
 @media only screen and (min-device-width : 300px) and (max-device-width : 480px){
-    
     main{
         height: 100%;
     }
@@ -334,7 +333,7 @@ footer{
     .logo{
         height: 100%;
         top: 1rem;
-        left: -1.5rem;
+        left: 50%;
         width:25%;
     }
 
@@ -359,7 +358,6 @@ footer{
     .vector{
         width: 16px;
         height: 16px;
-        position: absolute;
         top: 452px;
         left: 65px;
     }
@@ -411,14 +409,6 @@ footer{
         height: 58px;
         top: 32px;
         left: 32px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 120%;
-        text-align: center;
-        color: #343A40;
-        background: #FFFFFF;
     }
             
     .mensaje-box h3{
@@ -426,16 +416,10 @@ footer{
         height: 48px;
         top: 106px;
         left: 32px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-    
     }
 
     .box-muñeco img{
-        visibility: hidden;
+        display: none;
     }
 
     .input-mensaje{
@@ -483,7 +467,9 @@ footer{
 
     footer{
         text-align: center;
-        width: 400px;
+        width: 385px;
+        margin-left: 5px;
+        margin-right: 5px;
         left: 0px;
         top: 950px;
     }
